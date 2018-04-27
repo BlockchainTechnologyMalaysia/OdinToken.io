@@ -1,4 +1,4 @@
-## [ODIN TOKEN]
+# [ODIN TOKEN](http://odincoin-ag.com/)
 [![version][version-badge]][CHANGELOG]
 
 
