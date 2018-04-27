@@ -1,6 +1,5 @@
 # [ODIN TOKEN](http://odincoin-ag.com/)
-[![version][version-badge]][CHANGELOG]
-[CHANGELOG]: ./CHANGELOG.md
+![version][version-badge]
 
 
 **[ODIN TOKEN](http://odintoken.io)** 
