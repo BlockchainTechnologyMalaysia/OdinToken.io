@@ -1,0 +1,72 @@
+Initially
+---------
+(Unlock Account)
+1.Check for the set date 
+2.Check for End date
+3.Initial supply
+4.Prices array
+
+
+Go to build folder
+------------------
+Check for 2_deploy_contracts.js file and setup the deployment order and the check for the accounts.
+
+
+Go to contracts folder
+----------------------
+truffle console
+truffle compile
+truffle migrate --reset
+
+Note: delete the build contracts folder if you want to redeploy the contract.
+
+
+set the variables and do approval and allowance in the truffle console so as to interact with the contracts
+-----------------------------------------------------------------------------------------------------------
+	
+OdinCoin.deployed().then(function(instance){token=instance})
+OdinCoinSale.deployed().then(function(instance){sale=instance})
+RefundManager.deployed().then(function(instance){refund=instance})
+
+
+token.approve(web3.eth.accounts[0],130000000)
+token.approve(sale.address,130000000)
+token.allowance(web3.eth.accounts[0],sale.address)
+
+sale = OdinCoinSale.at("0xe543823cc3b507ed1a734943203915785f63300b")
+token = OdinCoin.at("0x04d69d477084931fba7cf282149df8196914f2e9")
+refund = RefundManager.at("0x478d04903c9c930fe1bf66561d58464b300094db")
+
+
+updated 14/03/18 w/o ether cap for testing.
+-----------------------------------------------
+CoinAddress: 0x04d69d477084931fba7cf282149df8196914f2e9
+SaleAddress: 0xb245ca067132ecc38744ff2727469b03ca6278b6
+RefundManager: 0x4e10960d4db2f4c3b7351c1672a78c4515abc482
+
+
+updated 14/03/18 w/o ether cap for development.
+-----------------------------------------------
+CoinAddress: 0x044df9b9e1e0c23b3752a92df076a368463c0de5
+SaleAddress: 0xf66f58b6af0539f3379acc4bd56b52a2f317cb61
+RefundManager: 0x953a7f9f2632d4b905f5af1d86c93820c7a6f3e3
+
+
+updated 04/04/18 w/o KYC for development.
+-----------------------------------------------
+CoinAddress: 0xe75d2ca37ccea0ea9a5387b3147ee1ccb15979f7
+SaleAddress: 0x7ea6fd5b2e4be88a198c86f8aad5a1b387476a28
+RefundManager: 0xc738796a612d0062f62ce39a7f6e181f09ec718a
+
+updated 04/04/18 w/o KYC and original start end date no sets for development.
+------------------------------------------------------------------------------
+OdinCoin: 0x1683f107e34d9d07f96fecfea69a78b26310857f
+OdinCoinSale: 0xddb410bb2919971947bbe06c5bb82901a422e9ab
+RefundManager: 0xc738796a612d0062f62ce39a7f6e181f09ec718a
+
+
+0.47ether for deployment and approval
+
+
+Check for the sale.funding(), if false check the start date and end date and approve address if your sending ethers to the sale contract.
+------------------------------------------------------------------------------------------------------------------------------------------
