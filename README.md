@@ -25,6 +25,7 @@ Quick start options:
 
 
 Linkedin: <https://www.linkedin.com/company/13337416/>
+
 Linkedin: <https://www.linkedin.com/company/13680923/>
 
 
@@ -32,6 +33,7 @@ Linkedin: <https://www.linkedin.com/company/13680923/>
 ## Social Media:
 
 Twitter: <https://twitter.com/odin_token>
+
 Facebook: <https://www.facebook.com/odintoken/>
 
 
