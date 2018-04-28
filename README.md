@@ -17,7 +17,7 @@ The ODIN platform is an ICO information portal and an all-in-one presale token m
 
 Quick start options:
 
-+ [Live](https://odintoken.com)
++ [Live](https://odintoken.io)
 + [Truffle](http://truffleframework.com/docs/)
 
 
