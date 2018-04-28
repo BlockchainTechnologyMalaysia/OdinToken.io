@@ -38,7 +38,7 @@ Facebook: <https://www.facebook.com/odintoken/>
 
 
 
-Special thanks go to: 
+Special thanks to: 
 [Blockchain Technology M.](https://blockchaintmhub.io)
 [No Wall World](https://www.nowallworld.com/)
 [ODIN TOKEN](https://www.odintoken-ag.com)
