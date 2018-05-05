@@ -17,5 +17,6 @@ Before creating bug reports, please check [this list](#before-submitting-a-bug-r
 
 #### How Do I Submit A (Good) Bug Report?
 
+
 Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined [which repository](#odintoken-and-packages) your bug is related to, create an issue on that repository and provide the following information by filling in [the template](ISSUE_TEMPLATE.md).
 
